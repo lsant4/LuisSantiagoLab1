@@ -7,6 +7,8 @@ package com.smartrfsolutions.companymodel;
  * @author luigi
  *
  */
-public class Employee {
+public abstract class Employee {
+ private String name; 
+ private double ytdEarnings; 
 
-}
+ public abstract double computePay(); 

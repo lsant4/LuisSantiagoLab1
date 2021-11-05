@@ -8,5 +8,5 @@ package com.smartrfsolutions.companymodel;
  *
  */
 public class PartTimeEmployee {
-
+ private double computePay()  
 }
