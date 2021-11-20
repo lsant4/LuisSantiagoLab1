@@ -2,7 +2,7 @@ package SmartCarLab1;
 
 import SmartCar.Car;
 
-public class Car {
+public class Car implements SelfCheckCapable {
 	private String licensePlateNumber;
 	private int year; 
 
@@ -21,6 +21,24 @@ public class Car {
 	public static void turnLeft () {
 		System.out.println("turnLeft");
 	}
+	
+	public boolean selfCheck() { 
+		// TODO Auto-generated method stub
+		return true; 
+	}
+	
+	@Override 
+	public String getComponentName() { 
+		//TODO Auto-generated method stub
+		String name = null; 
+		return name; 
+	}
+		public boolean runSelfCheck() {
+			//TODO Auto-generated method stub
+			return true; 
+		}
+		
+	
 	public static void runDiagnostics () {
 		System.out.println("All Systems Optimal");
 	}
@@ -28,6 +46,7 @@ public class Car {
 		// TODO Auto-generated method stub
 		Car mycar=new Car(); 
 		mycar.runDiagnostics();
+		mycar.runSelfCheck();
 	}
-
+ 
 }

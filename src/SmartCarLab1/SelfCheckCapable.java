@@ -1,23 +1,6 @@
-/**
- * This is a flat package that will includes some classes
- * and interfaces for the Systems Analysis and Design class
- * that anyone can build on.
- * 
- * To use classes/interfaces in this package, you may want to
- * do an
- * 
- * import edu.fiu.sysdesign.*;
- * 
- * At the top of your class.
- */
-package edu.fiu.sysdesign;
+package SmartCarLab1;
 
-/**
- * The SelfCheckCapable Interface - creates some basic
- * necessitites for testing 
- * @author asengupt (Arijit Sengupta - FIU)
- *
- */
+
 public interface SelfCheckCapable {
 	
 	/**
